@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 80vh;
+  width: 74.7vw;
+  margin-top: 2rem;
+  background-color: #e6e6e6;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.8rem;
+}
+
+.button {
+  height: 4.5rem;
+  width: 13rem;
+  font-size: 3rem;
+  border-radius: 7%;
+  background-color: #424530;
+  color: #e09132;
+}
+
+#input {
+  height: 10rem;
+  width: 74.1vw;
+  font-size: 5rem;
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+}
+
+#b-width {
+  width: 28rem;
+}
